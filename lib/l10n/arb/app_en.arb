@@ -1,0 +1,502 @@
+{
+    "@@locale": "en",
+    "appTitle": "亚太",
+    "@appTitle": {
+        "description": "Application name shown in the system UI"
+    },
+    "navMarket": "Quotes",
+    "@navMarket": {
+        "description": "Bottom navigation label for market quotes"
+    },
+    "navChart": "Chart",
+    "@navChart": {
+        "description": "Bottom navigation label for TradingView chart"
+    },
+    "navTrade": "Trade",
+    "@navTrade": {
+        "description": "Bottom navigation label for trading"
+    },
+    "navPortfolio": "History",
+    "@navPortfolio": {
+        "description": "Bottom navigation label for history tab"
+    },
+    "navProfile": "Settings",
+    "@navProfile": {
+        "description": "Bottom navigation label for settings tab"
+    },
+    "tabMarketTitle": "Market",
+    "@tabMarketTitle": {
+        "description": "App bar title on the market tab"
+    },
+    "marketInstrumentDetailTitle": "Instruments",
+    "@marketInstrumentDetailTitle": {
+        "description": "Market watchlist page title"
+    },
+    "marketSpreadLabel": "Spread: {points}",
+    "@marketSpreadLabel": {
+        "description": "Spread label on a market quote row",
+        "placeholders": {
+            "points": {
+                "type": "int"
+            }
+        }
+    },
+    "marketQuoteLowLabel": "Low: {value}",
+    "@marketQuoteLowLabel": {
+        "description": "Session low under bid/ask on market row",
+        "placeholders": {
+            "value": {
+                "type": "String"
+            }
+        }
+    },
+    "marketQuoteHighLabel": "High: {value}",
+    "@marketQuoteHighLabel": {
+        "description": "Session high under bid/ask on market row",
+        "placeholders": {
+            "value": {
+                "type": "String"
+            }
+        }
+    },
+    "marketAddSymbolAction": "Add symbol",
+    "marketAddSymbolTitle": "Add trading symbol",
+    "marketSymbolCategoryForex": "Forex",
+    "@marketSymbolCategoryForex": {
+        "description": "Add-symbol category: forex"
+    },
+    "marketSymbolCategoryMetal": "Metals",
+    "@marketSymbolCategoryMetal": {
+        "description": "Add-symbol category: metals"
+    },
+    "marketSymbolCategoryEnergy": "Energy",
+    "@marketSymbolCategoryEnergy": {
+        "description": "Add-symbol category: energy"
+    },
+    "marketSymbolCategoryIndex": "Indices",
+    "@marketSymbolCategoryIndex": {
+        "description": "Add-symbol category: indices"
+    },
+    "marketSymbolCategoryCrypto": "Crypto",
+    "@marketSymbolCategoryCrypto": {
+        "description": "Add-symbol category: cryptocurrency"
+    },
+    "marketAddSymbolSearchHint": "Search symbols",
+    "@marketAddSymbolSearchHint": {
+        "description": "Placeholder for add-symbol search field"
+    },
+    "marketWatchlistEmpty": "No symbols in your watchlist",
+    "marketEmptyAddWatchlist": "Add to watchlist",
+    "marketAddSymbolEmpty": "No symbols match your search",
+    "@marketAddSymbolEmpty": {
+        "description": "Empty state when search has no results"
+    },
+    "marketAddSymbolDone": "Done",
+    "symbolDetailSpread": "Spread",
+    "@symbolDetailSpread": {
+        "description": "Symbol detail row label"
+    },
+    "symbolDetailDigits": "Digits",
+    "symbolDetailStopLevel": "Stop level",
+    "symbolDetailContractSize": "Contract size",
+    "symbolDetailProfitCalculation": "Profit calculation",
+    "symbolDetailMarginCalculation": "Margin calculation",
+    "symbolDetailMarginHedging": "Margin hedging",
+    "symbolDetailMarginPercentage": "Margin percentage",
+    "symbolDetailGtcPending": "GTC pending orders",
+    "symbolDetailSwapType": "Swap type",
+    "symbolDetailSwapLong": "Swap long",
+    "symbolDetailSwapShort": "Swap short",
+    "symbolDetailSpreadFloating": "Floating",
+    "symbolDetailYes": "Yes",
+    "marketAddSymbolEditAction": "Edit",
+    "marketDeleteAction": "Delete",
+    "@marketDeleteAction": {
+        "description": "Delete selected watchlist symbols in edit mode"
+    },
+    "marketQuoteActionTrade": "Trade",
+    "marketQuoteActionChart": "Chart",
+    "marketQuoteActionDetail": "Details",
+    "marketQuoteActionCancel": "Cancel",
+    "@marketQuoteActionTrade": {
+        "description": "Market quote action sheet — go to trade tab"
+    },
+    "@marketQuoteActionChart": {
+        "description": "Market quote action sheet — go to chart tab"
+    },
+    "@marketQuoteActionDetail": {
+        "description": "Market quote action sheet — symbol detail"
+    },
+    "@marketQuoteActionCancel": {
+        "description": "Market quote action sheet — dismiss"
+    },
+    "tabChartTitle": "Chart",
+    "chartQuickTradeInstant": "Instant",
+    "chartToolChartType": "Chart type",
+    "chartToolIndicators": "Indicators",
+    "chartToolFit": "Fit view",
+    "chartToolRealtime": "Go to latest",
+    "chartToolTheme": "Chart theme",
+    "chartTypeCandles": "Candles",
+    "chartTypeHollowCandles": "Hollow candles",
+    "chartTypeLine": "Line",
+    "chartTypeArea": "Area",
+    "chartTypeBars": "Bars",
+    "chartIndicatorMa": "MA (20)",
+    "chartIndicatorEma": "EMA (12)",
+    "chartIndicatorRsi": "RSI (14)",
+    "@chartQuickTradeInstant": {
+        "description": "Chart tab toggle for quick instant buy/sell panel"
+    },
+    "@tabChartTitle": {
+        "description": "App bar title on the chart tab"
+    },
+    "tabTradeTitle": "Trade",
+    "@tabTradeTitle": {
+        "description": "App bar title on the trade tab"
+    },
+    "tabPortfolioTitle": "History",
+    "@tabPortfolioTitle": {
+        "description": "App bar title on the history tab"
+    },
+    "tabProfileTitle": "Settings",
+    "@tabProfileTitle": {
+        "description": "App bar title on the settings tab"
+    },
+    "modulePlaceholder": "This area will host trading and compliance features as you build them out.",
+    "@modulePlaceholder": {
+        "description": "Placeholder copy on empty feature tabs"
+    },
+    "loginRegulatoryTitle": "Securities and Futures Commission",
+    "@loginRegulatoryTitle": {
+        "description": "Regulatory commission title under the logo on login"
+    },
+    "loginAccountLabel": "Account:",
+    "@loginAccountLabel": {
+        "description": "Account field label on login"
+    },
+    "loginAccountHint": "Enter account ID",
+    "loginPasswordLabel": "Password:",
+    "loginPasswordHint": "Enter trading password",
+    "loginCaptchaLabel": "Captcha:",
+    "loginCaptchaHint": "Enter captcha",
+    "loginCaptchaRequiredSnackbar": "Please enter the captcha.",
+    "loginCaptchaLoadFailedSnackbar": "Failed to load captcha. Please try again.",
+    "loginAgreePrefix": "By signing in you agree to our ",
+    "@loginAgreePrefix": {
+        "description": "Prefix before privacy policy link on login"
+    },
+    "loginPrivacyPolicy": "Privacy Policy",
+    "@loginPrivacyPolicy": {
+        "description": "Privacy policy link label on login"
+    },
+    "loginAgreeRequiredSnackbar": "Please agree to the Privacy Policy.",
+    "loginPrimaryButton": "Sign in",
+    "loginRegisterLink": "Create account",
+    "loginRegisterComingSnackbar": "Registration is not available in this demo.",
+    "loginInvalidCredentialsSnackbar": "Enter account and password.",
+    "loginFailedSnackbar": "Sign-in failed. Please try again.",
+    "logoutButton": "Sign out",
+    "logoutConfirmMessage": "Are you sure you want to sign out?",
+    "settingsPersonalizedTrading": "Personalized trading",
+    "settingsSwitchLanguage": "Language",
+    "settingsLanguageTitle": "Language",
+    "settingsLanguageFollowSystem": "Use system language",
+    "settingsLanguageEnglish": "English",
+    "settingsLanguageChineseSimplified": "Simplified Chinese",
+    "settingsLanguageChineseTraditional": "Traditional Chinese",
+    "settingsCustomerService": "Customer service",
+    "settingsBackendLink": "Backend link",
+    "settingsRealNameAuth": "Real-name verification",
+    "settingsFeatureComingSoon": "This feature is not available in the demo yet.",
+    "retryButton": "Retry",
+    "quotesSectionTitle": "Top watchlist (mock)",
+    "tradeSectionTitle": "Recent tickets (mock)",
+    "tradeCurrencyUsd": "USD",
+    "tradeBalance": "Balance",
+    "tradeEquity": "Equity",
+    "tradeMargin": "Margin",
+    "tradeFreeMargin": "Free margin",
+    "tradeMarginLevel": "Margin level (%)",
+    "tradePositionsSection": "Positions",
+    "tradePositionsEmpty": "No open positions",
+    "tradeFollowSection": "Copy trades",
+    "tradeFollowEmpty": "No copy-trade positions",
+    "tradePositionClose": "Close",
+    "tradePositionModify": "Modify",
+    "tradeOrderCloseBanner": "Close: #{orderId} {side} {volume}",
+    "@tradeOrderCloseBanner": {
+        "placeholders": {
+            "orderId": { "type": "String" },
+            "side": { "type": "String" },
+            "volume": { "type": "String" }
+        }
+    },
+    "tradeOrderCloseWithLoss": "Close with Loss {pnl}",
+    "@tradeOrderCloseWithLoss": {
+        "placeholders": { "pnl": { "type": "String" } }
+    },
+    "tradeOrderCloseWithProfit": "Close with Profit {pnl}",
+    "@tradeOrderCloseWithProfit": {
+        "placeholders": { "pnl": { "type": "String" } }
+    },
+    "tradeOrderClosedAt": "Closed {lot} at ",
+    "@tradeOrderClosedAt": {
+        "placeholders": { "lot": { "type": "String" } }
+    },
+    "tradeOrderModifyBanner": "Modify: #{orderId} {side} {price}",
+    "@tradeOrderModifyBanner": {
+        "placeholders": {
+            "orderId": { "type": "String" },
+            "side": { "type": "String" },
+            "price": { "type": "String" }
+        }
+    },
+    "tradeOrderModifyPendingBanner": "Modify: #{orderId} {kind} {lot}",
+    "@tradeOrderModifyPendingBanner": {
+        "placeholders": {
+            "orderId": { "type": "String" },
+            "kind": { "type": "String" },
+            "lot": { "type": "String" }
+        }
+    },
+    "tradeOrderDelete": "Delete",
+    "tradeOrderModifySubmit": "Modify",
+    "tradeOrderModifySuccess": "Updated successfully",
+    "tradeOrderModifyFailed": "Update failed",
+    "tradeOrderModifyDisclaimer": "Stop loss and take profit must be at least {points} points away from the current market price. Stop loss is executed by the dealer.",
+    "@tradeOrderModifyDisclaimer": {
+        "placeholders": { "points": { "type": "int" } }
+    },
+    "tradeOrderModifyBuyStopLossRule": "Buy stop loss must be below bid by at least {points} points",
+    "@tradeOrderModifyBuyStopLossRule": {
+        "placeholders": { "points": { "type": "int" } }
+    },
+    "tradeOrderModifyBuyTakeProfitRule": "Buy take profit must be above ask by at least {points} points",
+    "@tradeOrderModifyBuyTakeProfitRule": {
+        "placeholders": { "points": { "type": "int" } }
+    },
+    "tradeOrderModifySellStopLossRule": "Sell stop loss must be above ask by at least {points} points",
+    "@tradeOrderModifySellStopLossRule": {
+        "placeholders": { "points": { "type": "int" } }
+    },
+    "tradeOrderModifySellTakeProfitRule": "Sell take profit must be below bid by at least {points} points",
+    "@tradeOrderModifySellTakeProfitRule": {
+        "placeholders": { "points": { "type": "int" } }
+    },
+    "tradePositionChart": "Chart",
+    "tradeOrdersSection": "Orders",
+    "tradeOrdersEmpty": "No pending orders",
+    "tradePendingCancel": "Cancel",
+    "tradePendingCancelConfirmMessage": "Order: #{orderId} {symbol}, {kind} {lot} at {price}",
+    "@tradePendingCancelConfirmMessage": {
+        "placeholders": {
+            "orderId": { "type": "String" },
+            "symbol": { "type": "String" },
+            "kind": { "type": "String" },
+            "lot": { "type": "String" },
+            "price": { "type": "String" }
+        }
+    },
+    "tradePendingBuyLimit": "buy limit",
+    "tradePendingSellLimit": "sell limit",
+    "tradePendingBuyStop": "buy stop",
+    "tradePendingSellStop": "sell stop",
+    "tradeDetailSwapFee": "Swap",
+    "tradeDetailTax": "Tax",
+    "tradeDetailCommission": "Commission",
+    "tradeDetailOrderId": "ID",
+    "tradeDetailTime": "Time",
+    "tradePendingLotAtPrice": "{lot} at {price}",
+    "@tradePendingLotAtPrice": {
+        "placeholders": {
+            "lot": {
+                "type": "String"
+            },
+            "price": {
+                "type": "String"
+            }
+        }
+    },
+    "tradeGoToTrade": "Trade",
+    "tradeOrderLimit": "Limit order",
+    "tradeOrderMarket": "Market order",
+    "tradeOrderExecutionInstant": "Instant execution",
+    "tradeOrderExecutionBuyLimitShort": "Buy Limit",
+    "tradeOrderExecutionSellLimitShort": "Sell Limit",
+    "tradeOrderExecutionBuyStopShort": "Buy Stop",
+    "tradeOrderExecutionSellStopShort": "Sell Stop",
+    "tradeOrderExecutionBuyLimit": "Buy Limit",
+    "tradeOrderExecutionSellLimit": "Sell Limit",
+    "tradeOrderExecutionBuyStop": "Buy Stop",
+    "tradeOrderExecutionSellStop": "Sell Stop",
+    "tradeOrderExecutionInstantHint": "Fill immediately at the current market price",
+    "tradeOrderExecutionBuyLimitHint": "Buy when price falls to your limit",
+    "tradeOrderExecutionSellLimitHint": "Sell when price rises to your limit",
+    "tradeOrderExecutionBuyStopHint": "Buy when price breaks above your stop",
+    "tradeOrderExecutionSellStopHint": "Sell when price breaks below your stop",
+    "tradeOrderSubmit": "Place order",
+    "tradeOrderExecutionTypeTitle": "Order type",
+    "tradeOrderPrice": "Price",
+    "tradeOrderStopLoss": "Stop loss",
+    "tradeOrderTakeProfit": "Take profit",
+    "tradeOrderDeviation": "Deviation",
+    "tradeOrderExpiry": "Expiry",
+    "tradeOrderExpiryMustBeFuture": "Choose a date and time in the future",
+    "tradeOrderExpiryRequired": "Set an expiry time",
+    "tradeOrderPriceRequired": "Set a price",
+    "tradeOrderQuoteUnavailable": "No valid quote — cannot place order",
+    "tradeOrderBuyLimitPriceRule": "Buy limit must be below the ask",
+    "tradeOrderSellLimitPriceRule": "Sell limit must be above the bid",
+    "tradeOrderBuyStopPriceRule": "Buy stop must be above the ask",
+    "tradeOrderSellStopPriceRule": "Sell stop must be below the bid",
+    "tradeOrderEnterValue": "Enter a value",
+    "tradeOrderInvalidValue": "Enter a valid number",
+    "tradeOrderNotSet": "Not set",
+    "tradeOrderMarketPrice": "Market",
+    "tradeOrderPoints": "{count} pts",
+    "tradeOrderPointsSuffix": "pts",
+    "tradeOrderPickSymbol": "Select symbol",
+    "tradeOrderPlacedDemo": "Order submitted (demo)",
+    "tradeOrderSubmitting": "Submitting order…",
+    "tradeOrderSubmitSuccess": "Order placed successfully",
+    "tradeOrderSuccessStatus": "Success",
+    "@tradeOrderSuccessStatus": {
+        "description": "Status line on trade order success screen"
+    },
+    "tradeOrderSubmitFailed": "Order failed",
+    "tradeOrderMqttOffline": "Trade connection is not ready. Try again shortly.",
+    "tradeOrderLotTooSmall": "Lot size must be at least 0.01",
+    "@tradeOrderPoints": {
+        "placeholders": {
+            "count": {
+                "type": "int"
+            }
+        }
+    },
+    "portfolioSectionTitle": "Holdings (mock)",
+    "historyPeriodDay": "Day",
+    "historyPeriodWeek": "Week",
+    "historyPeriodMonth": "Month",
+    "historyPeriodCustom": "Custom",
+    "historyCustomRangeTitle": "Select date range",
+    "historyCustomRangeCancel": "Cancel",
+    "historyCustomRangeConfirm": "OK",
+    "historyCustomRangeStartLabel": "Start date",
+    "historyCustomRangeEndLabel": "End date",
+    "historyListEmpty": "No trades in this period",
+    "historyTradeBuy": "buy",
+    "historyTradeSell": "sell",
+    "historySummaryProfit": "Profit:",
+    "historySummaryCredit": "Credit:",
+    "historySummaryDeposit": "Deposit:",
+    "historySummaryWithdrawal": "Withdrawal:",
+    "historySummaryBalance": "Balance:",
+    "profileSectionTitle": "Account overview",
+    "profileAccountIdLine": "ID: {accountId}",
+    "@profileAccountIdLine": {
+        "placeholders": {
+            "accountId": {
+                "type": "String"
+            }
+        }
+    },
+    "changePercentLabel": "Chg %",
+    "switchAccountTitle": "Switch account",
+    "switchAccountAddAction": "+ Add account",
+    "switchAccountAction": "Switch",
+    "switchAccountEmpty": "No saved accounts",
+    "addAccountTitle": "Add account",
+    "addAccountSubtitle": "Account ID sign-in",
+    "addAccountIdLabel": "Account ID",
+    "addAccountIdHint": "Enter account ID",
+    "addAccountPasswordLabel": "Password",
+    "addAccountPasswordHint": "Enter password",
+    "addAccountCancel": "Cancel",
+    "addAccountConfirm": "Confirm",
+    "settingsViewAnnouncements": "Announcements",
+    "announcementsTitle": "Announcements",
+    "announcementsEmpty": "No announcements",
+    "announcementsReadMore": "Read more",
+    "announcementsDetailTitle": "Announcement",
+    "announcementsNotFound": "This announcement is unavailable.",
+    "announcementsPublishedOn": "Published {date}",
+    "@announcementsPublishedOn": {
+        "placeholders": {
+            "date": {
+                "type": "String"
+            }
+        }
+    },
+    "leaderboardTitle": "Leaderboard",
+    "leaderboardUpdatedAt": "(GMT+3) Updated {time}",
+    "leaderboardFilterTradingTime": "Trading period",
+    "leaderboardFilterRanking": "Rank by",
+    "leaderboardSignalSettings": "Signal settings",
+    "followDetailsEntry": "Copy details",
+    "followDetailsTitle": "Copy trade details",
+    "followDetailsTabFollowers": "Followers",
+    "followDetailsTabFollowing": "Following",
+    "followDetailsEmptyFollowers": "No followers yet",
+    "followDetailsEmptyFollowing": "Not following anyone",
+    "followDetailsFollowTime": "Follow time",
+    "followDetailsFollowSince": "Following since",
+    "followDetailsCancelFollow": "Unfollow",
+    "followDetailsCancelFollowSuccess": "Unfollowed",
+    "leaderboardSearchHint": "Search accounts you follow",
+    "leaderboardSearchUserNotFound": "No user found",
+    "leaderboardLoadFailed": "Could not load. Please try again later.",
+    "leaderboardEmpty": "No matching records",
+    "leaderboardTime7d": "Last 7 days",
+    "leaderboardTime15d": "Last 15 days",
+    "leaderboardTime30d": "Last 30 days",
+    "leaderboardRankTop20": "Top 20",
+    "leaderboardRankBottom20": "Bottom 20",
+    "leaderboardMetricProfit": "Profit",
+    "leaderboardFollowBalance": "Copy balance",
+    "leaderboardCommissionRate": "Commission",
+    "leaderboardAccountId": "Account {accountId}",
+    "@leaderboardAccountId": {
+        "placeholders": {
+            "accountId": {
+                "type": "int"
+            }
+        }
+    },
+    "followTraderAction": "Follow",
+    "followTraderTitle": "Copy trade setup",
+    "followTraderLotTitle": "Lot size",
+    "followTraderLotHint": "Minimum lot 0.01",
+    "followTraderLotTooSmall": "Lot size must be at least 0.01",
+    "followTraderModeTitle": "Copy mode",
+    "followTraderModeForward": "Same direction",
+    "followTraderModeForwardHint": "Open in the same direction as the signal provider",
+    "followTraderModeReverse": "Opposite direction",
+    "followTraderModeReverseHint": "Open in the opposite direction of the signal provider",
+    "followTraderConfirm": "Confirm copy trade",
+    "followTraderSuccess": "Follow successful",
+    "followTraderFailed": "Could not save copy trade settings. Try again.",
+    "followTraderActiveFollowTitle": "Active copy trades",
+    "followTraderActiveFollowEmpty": "No active copy trades",
+    "singleProviderSettingsTitle": "Signal provider settings",
+    "singleProviderSettingsIntro": "Set the maximum copy-trade balance and your commission rate. Changes apply to new followers.",
+    "singleProviderFollowAmountLabel": "Copy-trade balance limit",
+    "singleProviderFollowAmountHint": "Enter amount",
+    "singleProviderCommissionLabel": "Commission rate",
+    "singleProviderCommissionHint": "0–100",
+    "singleProviderCommissionSuffix": "%",
+    "singleProviderSettingsSave": "Save settings",
+    "singleProviderAmountRequired": "Enter a copy-trade balance limit",
+    "singleProviderAmountInvalid": "Enter a valid amount",
+    "singleProviderCommissionRequired": "Enter a commission rate",
+    "singleProviderCommissionInvalid": "Commission must be an integer from 0 to 100",
+    "singleProviderSettingsSuccess": "Saved successfully",
+    "singleProviderSettingsFailed": "Could not save settings. Try again.",
+    "@leaderboardUpdatedAt": {
+        "placeholders": {
+            "time": {
+                "type": "String"
+            }
+        }
+    }
+}

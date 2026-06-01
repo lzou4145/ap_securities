@@ -1,0 +1,403 @@
+{
+    "@@locale": "zh",
+    "appTitle": "亚太",
+    "navMarket": "行情",
+    "navChart": "图表",
+    "navTrade": "交易",
+    "navPortfolio": "历史",
+    "navProfile": "设置",
+    "tabMarketTitle": "行情",
+    "marketInstrumentDetailTitle": "品种详情",
+    "marketSpreadLabel": "点差:{points}",
+    "@marketSpreadLabel": {
+        "placeholders": {
+            "points": {
+                "type": "int"
+            }
+        }
+    },
+    "marketQuoteLowLabel": "最低：{value}",
+    "@marketQuoteLowLabel": {
+        "placeholders": {
+            "value": {
+                "type": "String"
+            }
+        }
+    },
+    "marketQuoteHighLabel": "最高：{value}",
+    "@marketQuoteHighLabel": {
+        "placeholders": {
+            "value": {
+                "type": "String"
+            }
+        }
+    },
+    "marketAddSymbolAction": "添加品种",
+    "marketAddSymbolTitle": "添加交易品种",
+    "marketSymbolCategoryForex": "外汇",
+    "marketSymbolCategoryMetal": "金属",
+    "marketSymbolCategoryEnergy": "能源",
+    "marketSymbolCategoryIndex": "指数",
+    "marketSymbolCategoryCrypto": "数字货币",
+    "marketAddSymbolSearchHint": "搜索交易品种",
+    "marketWatchlistEmpty": "暂无自选品种",
+    "marketEmptyAddWatchlist": "添加自选",
+    "marketAddSymbolEmpty": "暂无匹配品种",
+    "marketAddSymbolDone": "完成",
+    "symbolDetailSpread": "点差",
+    "symbolDetailDigits": "小数位",
+    "symbolDetailStopLevel": "止损水平",
+    "symbolDetailContractSize": "合约数量",
+    "symbolDetailProfitCalculation": "利润计算",
+    "symbolDetailMarginCalculation": "预付款计算",
+    "symbolDetailMarginHedging": "预付款对冲",
+    "symbolDetailMarginPercentage": "预付款百分比",
+    "symbolDetailGtcPending": "直到取消交易",
+    "symbolDetailSwapType": "库存费类型",
+    "symbolDetailSwapLong": "买入库存费",
+    "symbolDetailSwapShort": "卖出库存费",
+    "symbolDetailSpreadFloating": "浮动",
+    "symbolDetailYes": "是的",
+    "marketAddSymbolEditAction": "编辑",
+    "marketDeleteAction": "删除",
+    "marketQuoteActionTrade": "交易",
+    "marketQuoteActionChart": "图表",
+    "marketQuoteActionDetail": "详细情况",
+    "marketQuoteActionCancel": "取消",
+    "tabChartTitle": "图表",
+    "chartQuickTradeInstant": "立即",
+    "chartToolChartType": "图表类型",
+    "chartToolIndicators": "指标",
+    "chartToolFit": "适配视图",
+    "chartToolRealtime": "回到最新",
+    "chartToolTheme": "深浅主题",
+    "chartTypeCandles": "K线图",
+    "chartTypeHollowCandles": "空心K线",
+    "chartTypeLine": "线形图",
+    "chartTypeArea": "面积图",
+    "chartTypeBars": "美国线",
+    "chartIndicatorMa": "MA(20)",
+    "chartIndicatorEma": "EMA(12)",
+    "chartIndicatorRsi": "RSI(14)",
+    "tabTradeTitle": "交易",
+    "tabPortfolioTitle": "历史",
+    "tabProfileTitle": "设置",
+    "modulePlaceholder": "此处将接入行情、交易、资产与合规相关能力，可按业务模块逐步替换。",
+    "loginRegulatoryTitle": "證券及期貨事務監察委員會",
+    "loginAccountLabel": "账号：",
+    "loginAccountHint": "请输入账户ID",
+    "loginPasswordLabel": "密码：",
+    "loginPasswordHint": "请输入交易密码",
+    "loginCaptchaLabel": "验证码：",
+    "loginCaptchaHint": "请输入验证码",
+    "loginCaptchaRequiredSnackbar": "请输入验证码。",
+    "loginCaptchaLoadFailedSnackbar": "验证码加载失败，请重试。",
+    "loginAgreePrefix": "表示您已经同意我们的 ",
+    "loginPrivacyPolicy": "《隐私政策》",
+    "loginAgreeRequiredSnackbar": "请先勾选同意《隐私政策》。",
+    "loginPrimaryButton": "登录",
+    "loginRegisterLink": "注册账号",
+    "loginRegisterComingSnackbar": "注册功能演示中暂未开放。",
+    "loginInvalidCredentialsSnackbar": "请输入账号和密码。",
+    "loginFailedSnackbar": "登录失败，请稍后重试。",
+    "logoutButton": "退出登录",
+    "logoutConfirmMessage": "确定要退出登录吗？",
+    "settingsPersonalizedTrading": "个性化交易",
+    "settingsSwitchLanguage": "切换语言",
+    "settingsLanguageTitle": "语言",
+    "settingsLanguageFollowSystem": "跟随系统",
+    "settingsLanguageEnglish": "English",
+    "settingsLanguageChineseSimplified": "简体中文",
+    "settingsLanguageChineseTraditional": "繁體中文",
+    "settingsCustomerService": "客服",
+    "settingsBackendLink": "后台链接",
+    "settingsRealNameAuth": "实名认证",
+    "settingsFeatureComingSoon": "功能演示中，敬请期待。",
+    "retryButton": "重试",
+    "quotesSectionTitle": "自选 / 关注（模拟数据）",
+    "tradeSectionTitle": "近期委托（模拟数据）",
+    "tradeCurrencyUsd": "USD",
+    "tradeBalance": "结余",
+    "tradeEquity": "净值",
+    "tradeMargin": "预付款",
+    "tradeFreeMargin": "可用预付款",
+    "tradeMarginLevel": "预付款比率(%)",
+    "tradePositionsSection": "价位",
+    "tradePositionsEmpty": "暂无持仓",
+    "tradeFollowSection": "跟单",
+    "tradeFollowEmpty": "暂无跟单持仓",
+    "tradePositionClose": "平仓",
+    "tradePositionModify": "修改",
+    "tradeOrderCloseBanner": "关闭: #{orderId} {side} {volume}",
+    "@tradeOrderCloseBanner": {
+        "placeholders": {
+            "orderId": { "type": "String" },
+            "side": { "type": "String" },
+            "volume": { "type": "String" }
+        }
+    },
+    "tradeOrderCloseWithLoss": "亏损平仓 {pnl}",
+    "@tradeOrderCloseWithLoss": {
+        "placeholders": { "pnl": { "type": "String" } }
+    },
+    "tradeOrderCloseWithProfit": "获利平仓 {pnl}",
+    "@tradeOrderCloseWithProfit": {
+        "placeholders": { "pnl": { "type": "String" } }
+    },
+    "tradeOrderClosedAt": "被平仓 {lot} at ",
+    "@tradeOrderClosedAt": {
+        "placeholders": { "lot": { "type": "String" } }
+    },
+    "tradeOrderModifyBanner": "修改: #{orderId} {side} {price}",
+    "@tradeOrderModifyBanner": {
+        "placeholders": {
+            "orderId": { "type": "String" },
+            "side": { "type": "String" },
+            "price": { "type": "String" }
+        }
+    },
+    "tradeOrderModifyPendingBanner": "修改: #{orderId} {kind} {lot}",
+    "@tradeOrderModifyPendingBanner": {
+        "placeholders": {
+            "orderId": { "type": "String" },
+            "kind": { "type": "String" },
+            "lot": { "type": "String" }
+        }
+    },
+    "tradeOrderDelete": "删除",
+    "tradeOrderModifySubmit": "修改",
+    "tradeOrderModifySuccess": "修改成功",
+    "tradeOrderModifyFailed": "修改失败",
+    "tradeOrderModifyDisclaimer": "止损价位和止赢价位的设定必须与现在市场价位相差 {points} 点。止损处理由交易商侧执行。",
+    "@tradeOrderModifyDisclaimer": {
+        "placeholders": { "points": { "type": "int" } }
+    },
+    "tradeOrderModifyBuyStopLossRule": "买入止损须低于买价，且至少相距 {points} 点",
+    "@tradeOrderModifyBuyStopLossRule": {
+        "placeholders": { "points": { "type": "int" } }
+    },
+    "tradeOrderModifyBuyTakeProfitRule": "买入获利须高于卖价，且至少相距 {points} 点",
+    "@tradeOrderModifyBuyTakeProfitRule": {
+        "placeholders": { "points": { "type": "int" } }
+    },
+    "tradeOrderModifySellStopLossRule": "卖出止损须高于卖价，且至少相距 {points} 点",
+    "@tradeOrderModifySellStopLossRule": {
+        "placeholders": { "points": { "type": "int" } }
+    },
+    "tradeOrderModifySellTakeProfitRule": "卖出获利须低于买价，且至少相距 {points} 点",
+    "@tradeOrderModifySellTakeProfitRule": {
+        "placeholders": { "points": { "type": "int" } }
+    },
+    "tradePositionChart": "图表",
+    "tradeOrdersSection": "订单",
+    "tradeOrdersEmpty": "暂无委托",
+    "tradePendingCancel": "取消",
+    "tradePendingCancelConfirmMessage": "订单: #{orderId} {symbol}, {kind} {lot} at {price}",
+    "@tradePendingCancelConfirmMessage": {
+        "placeholders": {
+            "orderId": { "type": "String" },
+            "symbol": { "type": "String" },
+            "kind": { "type": "String" },
+            "lot": { "type": "String" },
+            "price": { "type": "String" }
+        }
+    },
+    "tradePendingBuyLimit": "buy limit",
+    "tradePendingSellLimit": "sell limit",
+    "tradePendingBuyStop": "buy stop",
+    "tradePendingSellStop": "sell stop",
+    "tradeDetailSwapFee": "库存费",
+    "tradeDetailTax": "税费",
+    "tradeDetailCommission": "手续费",
+    "tradeDetailOrderId": "ID",
+    "tradeDetailTime": "时间",
+    "tradePendingLotAtPrice": "{lot} at {price}",
+    "@tradePendingLotAtPrice": {
+        "placeholders": {
+            "lot": {
+                "type": "String"
+            },
+            "price": {
+                "type": "String"
+            }
+        }
+    },
+    "tradeGoToTrade": "去交易",
+    "tradeOrderLimit": "限价交易",
+    "tradeOrderMarket": "市价交易",
+    "tradeOrderExecutionInstant": "立即执行",
+    "tradeOrderExecutionBuyLimitShort": "Buy Limit",
+    "tradeOrderExecutionSellLimitShort": "Sell Limit",
+    "tradeOrderExecutionBuyStopShort": "Buy Stop",
+    "tradeOrderExecutionSellStopShort": "Sell Stop",
+    "tradeOrderExecutionBuyLimit": "Buy Limit · 买入限价",
+    "tradeOrderExecutionSellLimit": "Sell Limit · 卖出限价",
+    "tradeOrderExecutionBuyStop": "Buy Stop · 买入止损",
+    "tradeOrderExecutionSellStop": "Sell Stop · 卖出止损",
+    "tradeOrderExecutionInstantHint": "按当前市价立刻成交（类似市价单）",
+    "tradeOrderExecutionBuyLimitHint": "价格下跌到您设定的价位时买入",
+    "tradeOrderExecutionSellLimitHint": "价格上涨到您设定的价位时卖出",
+    "tradeOrderExecutionBuyStopHint": "价格向上突破设定价位时买入（追涨/止损追多）",
+    "tradeOrderExecutionSellStopHint": "价格向下跌破设定价位时卖出（止损/追空）",
+    "tradeOrderSubmit": "下单",
+    "tradeOrderExecutionTypeTitle": "选择交易方式",
+    "tradeOrderPrice": "价格",
+    "tradeOrderStopLoss": "止损",
+    "tradeOrderTakeProfit": "获利",
+    "tradeOrderDeviation": "偏差",
+    "tradeOrderExpiry": "期限",
+    "tradeOrderExpiryMustBeFuture": "请选择当前时间之后的时间",
+    "tradeOrderExpiryRequired": "请设置期限",
+    "tradeOrderPriceRequired": "请设置价格",
+    "tradeOrderQuoteUnavailable": "暂无有效报价，无法下单",
+    "tradeOrderBuyLimitPriceRule": "买入限价须低于当前卖价",
+    "tradeOrderSellLimitPriceRule": "卖出限价须高于当前买价",
+    "tradeOrderBuyStopPriceRule": "买入止损须高于当前卖价",
+    "tradeOrderSellStopPriceRule": "卖出止损须低于当前买价",
+    "tradeOrderEnterValue": "请输入数值",
+    "tradeOrderInvalidValue": "请输入有效数值",
+    "tradeOrderNotSet": "没有设置",
+    "tradeOrderMarketPrice": "市价",
+    "tradeOrderPoints": "{count}点",
+    "tradeOrderPointsSuffix": "点",
+    "@tradeOrderPoints": {
+        "placeholders": {
+            "count": {
+                "type": "int"
+            }
+        }
+    },
+    "tradeOrderPickSymbol": "选择交易品种",
+    "tradeOrderPlacedDemo": "委托已提交（演示）",
+    "tradeOrderSubmitting": "正在提交订单…",
+    "tradeOrderSubmitSuccess": "下单成功",
+    "tradeOrderSuccessStatus": "成功",
+    "tradeOrderSubmitFailed": "下单失败",
+    "tradeOrderMqttOffline": "交易连接未就绪，请稍后重试",
+    "tradeOrderLotTooSmall": "手数不能低于 0.01",
+    "portfolioSectionTitle": "持仓（模拟数据）",
+    "historyPeriodDay": "日",
+    "historyPeriodWeek": "周",
+    "historyPeriodMonth": "月",
+    "historyPeriodCustom": "自定义",
+    "historyCustomRangeTitle": "选择日期范围",
+    "historyCustomRangeCancel": "取消",
+    "historyCustomRangeConfirm": "确定",
+    "historyCustomRangeStartLabel": "开始日期",
+    "historyCustomRangeEndLabel": "结束日期",
+    "historyListEmpty": "该时间段暂无交易记录",
+    "historyTradeBuy": "buy",
+    "historyTradeSell": "sell",
+    "historySummaryProfit": "利润：",
+    "historySummaryCredit": "信用：",
+    "historySummaryDeposit": "入金：",
+    "historySummaryWithdrawal": "出金：",
+    "historySummaryBalance": "结余：",
+    "profileSectionTitle": "账户概览",
+    "profileAccountIdLine": "ID: {accountId}",
+    "@profileAccountIdLine": {
+        "placeholders": {
+            "accountId": {
+                "type": "String"
+            }
+        }
+    },
+    "changePercentLabel": "涨跌幅",
+    "switchAccountTitle": "切换账号",
+    "switchAccountAddAction": "+ 添加账号",
+    "switchAccountAction": "切换账号",
+    "switchAccountEmpty": "暂无已保存账号",
+    "addAccountTitle": "添加账号",
+    "addAccountSubtitle": "账号ID登录",
+    "addAccountIdLabel": "账号ID",
+    "addAccountIdHint": "请输入账号ID",
+    "addAccountPasswordLabel": "密码",
+    "addAccountPasswordHint": "请输入密码",
+    "addAccountCancel": "取消",
+    "addAccountConfirm": "确认",
+    "settingsViewAnnouncements": "查看公告",
+    "announcementsTitle": "公告",
+    "announcementsEmpty": "暂无公告",
+    "announcementsReadMore": "查看全文",
+    "announcementsDetailTitle": "公告详情",
+    "announcementsNotFound": "该公告不存在或已下架。",
+    "announcementsPublishedOn": "发布时间：{date}",
+    "@announcementsPublishedOn": {
+        "placeholders": {
+            "date": {
+                "type": "String"
+            }
+        }
+    },
+    "@leaderboardUpdatedAt": {
+        "placeholders": {
+            "time": {
+                "type": "String"
+            }
+        }
+    },
+    "leaderboardTitle": "排行榜",
+    "leaderboardUpdatedAt": "(GMT+3){time}更新",
+    "leaderboardFilterTradingTime": "交易时间",
+    "leaderboardFilterRanking": "排名方式",
+    "leaderboardSignalSettings": "带单者设置",
+    "followDetailsEntry": "跟单详情",
+    "followDetailsTitle": "跟单详情",
+    "followDetailsTabFollowers": "谁跟了我",
+    "followDetailsTabFollowing": "我跟了谁",
+    "followDetailsEmptyFollowers": "暂无跟单者",
+    "followDetailsEmptyFollowing": "暂无跟单记录",
+    "followDetailsFollowTime": "跟单时间",
+    "followDetailsFollowSince": "开始跟单",
+    "followDetailsCancelFollow": "取消跟单",
+    "followDetailsCancelFollowSuccess": "已取消跟单",
+    "leaderboardSearchHint": "查询您感兴趣的账户",
+    "leaderboardSearchUserNotFound": "暂无此用户",
+    "leaderboardLoadFailed": "加载失败，请稍后重试",
+    "leaderboardEmpty": "暂无匹配记录",
+    "leaderboardTime7d": "近 7 天",
+    "leaderboardTime15d": "近 15 天",
+    "leaderboardTime30d": "近 30 天",
+    "leaderboardRankTop20": "前 20",
+    "leaderboardRankBottom20": "后 20",
+    "leaderboardMetricProfit": "收益",
+    "leaderboardFollowBalance": "带单余额",
+    "leaderboardCommissionRate": "分润比例",
+    "leaderboardAccountId": "账户 {accountId}",
+    "@leaderboardAccountId": {
+        "placeholders": {
+            "accountId": {
+                "type": "int"
+            }
+        }
+    },
+    "followTraderAction": "跟单",
+    "followTraderTitle": "设置跟单",
+    "followTraderLotTitle": "跟单手数",
+    "followTraderLotHint": "最小手数 0.01",
+    "followTraderLotTooSmall": "手数不能低于 0.01",
+    "followTraderModeTitle": "跟单方式",
+    "followTraderModeForward": "正向跟单",
+    "followTraderModeForwardHint": "与带单者同方向开仓",
+    "followTraderModeReverse": "反向跟单",
+    "followTraderModeReverseHint": "与带单者反方向开仓",
+    "followTraderConfirm": "确认跟单",
+    "followTraderSuccess": "跟单成功",
+    "followTraderFailed": "跟单设置失败，请稍后重试",
+    "followTraderActiveFollowTitle": "正在跟单",
+    "followTraderActiveFollowEmpty": "暂无跟单记录",
+    "singleProviderSettingsTitle": "带单者设置",
+    "singleProviderSettingsIntro": "设置跟单者可使用的资金上限与抽成比例，保存后对新跟单生效。",
+    "singleProviderFollowAmountLabel": "可跟单金额",
+    "singleProviderFollowAmountHint": "请输入金额",
+    "singleProviderCommissionLabel": "抽成比例",
+    "singleProviderCommissionHint": "0–100",
+    "singleProviderCommissionSuffix": "%",
+    "singleProviderSettingsSave": "保存设置",
+    "singleProviderAmountRequired": "请输入可跟单金额",
+    "singleProviderAmountInvalid": "请输入有效的金额",
+    "singleProviderCommissionRequired": "请输入抽成比例",
+    "singleProviderCommissionInvalid": "抽成比例须为 0–100 的整数",
+    "singleProviderSettingsSuccess": "保存成功",
+    "singleProviderSettingsFailed": "保存失败，请稍后重试"
+}

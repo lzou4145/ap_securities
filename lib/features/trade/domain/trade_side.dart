@@ -1,0 +1,4 @@
+enum TradeSide {
+  buy,
+  sell,
+}
